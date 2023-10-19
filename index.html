@@ -1,1 +1,94 @@
-Hello World
+<html>
+<head>
+    <title>eli harrell</title>
+    </style>
+        body{
+            margin : 0 50px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            padding: 5px 10px;
+            background-color: #f0f0f0;
+        }
+
+        a:hover {
+            background-color: #ccc;
+        }
+
+        ul ul {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 100%;
+        }
+
+        li:hover > ul {
+            display: block;
+        }
+
+        /* Create right-angle lines */
+        li:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 10px;
+            border-left: 1px solid #333;
+        }
+
+        ul:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 5px;
+            height: 100%;
+            border-left: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>eli harrell</h1>
+    <p></p>
+    <ul>
+        <li><a href="biography.html">about me</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="exhibitions.html">Exhibitions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <ul>
+        <li>
+            <a href="#">Main Link 1</a>
+            <ul>
+                <li><a href="#">Sublink 1.1</a></li>
+                <li><a href="#">Sublink 1.2</a></li>
+                <li>
+                    <a href="#">Sublink 1.3</a>
+                    <ul>
+                        <li><a href="#">Sublink 1.3.1</a></li>
+                        <li><a href="#">Sublink 1.3.2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Main Link 2</a>
+            <ul>
+                <li><a href="#">Sublink 2.1</a></li>
+                <li><a href="#">Sublink 2.2</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
