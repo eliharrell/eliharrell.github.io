@@ -11,7 +11,7 @@
         }
         h1{
             font-family: neue-haas-grotesk-display, sans-serif;
-            font-size : 10px;
+            font-size : 20px;
         }
         p.normal{
             font-family: century-old-style-std, serif;
@@ -34,28 +34,42 @@
         .frame{
             width: 400px;
             height: 647px;
-            border: 2px solid #000000;
+            border: 1px solid #000000;
+            padding: 25px;
+            display: flex;
+        }
+        .within{
+            flex: 1;
+            padding-right: 25px;
+        }
+        .image{
+            max-width: 100%;
         }
     </style>
 </head>
 <body>
     <div class="frame">
-        <h1>ELI HARRELL</h1>
-
-        <table>
-            <tr>
-                <td>Portfolio</td>
-                <td><a href="biography.html"><i>...in order.</i></a></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><a href="works.html"><i>...by type.</i></a></td>
-            </tr>
-        </table>
-        
-        <p>
-           A student.
-        </p>
+        <div class="within">
+            <h1>ELI HARRELL</h1>
+    
+            <table>
+                <tr>
+                    <td>Portfolio</td>
+                    <td><a href="biography.html"><i>...in order.</i></a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="works.html"><i>...by type.</i></a></td>
+                </tr>
+            </table>
+            
+            <p>
+               A student.
+            </p>
+        </div>
+        <div class="image">
+            <img src="e.png">
+        </div>
     </div>
 </body>
 </html>
