@@ -18,6 +18,7 @@
         p.italic{
             font-family: century-old-style-std, serif;
             font-style : italic;
+		}
         a{
             text-decoration : none;
             color : blue;
@@ -26,18 +27,20 @@
             color : green;
         }
         table{
-            width : 400px;
-            height : 647px%;
+            width : 100%;
+            height : 100%;
             border : 1px solid #000;
+			border-collapse : collapse;
         }
         th, td{
             border : 1px solid #000;
             padding : 25px;
+			vertical-align : top;
         }
         .frame{
             width: 400px;
             height: 647px;
-            border: 1px solid #000000;
+            border: 0px solid #000000;
             display : flex;
             flex-direction: column;
             margin-top : 25px;
