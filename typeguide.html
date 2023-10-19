@@ -6,7 +6,6 @@
     <style>
         body{
             max-width = 400px;
-            padding : 
         }
         h1{
             font-family: neue-haas-grotesk-display, sans-serif;
@@ -27,28 +26,37 @@
             color : green;
         }
         table{
-            width : 400px;
-            height : 647px;
+            width : 100%;
+            height : 100%;
             border : 1px solid #000;
         }
         th, td{
             border : 1px solid #000;
             padding : 25px;
         }
+        .frame{
+            width: 400px;
+            height: 647px;
+            border: 1px solid #000000;
+            display : flex;
+            flex-direction: column;
+            margin-top : 25px;
+        }
     </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <td><a href="hand3d.html">by hand, in 3D</a></td>
-            <td><a href="hand2d.html">by hand, in 2D</a></td>
-        </tr>
-        <tr>
-            <td><a href="cpu3d.html">digitally, in 3D</a></td>
-            <td><a href="cpu2d.html">digitally, in 2D</a></td>
-        </tr>
-    </table>
+    <div class="frame">
+        <table>
+            <tr>
+                <td><a href="hand3d.html">by hand, in 3D</a></td>
+                <td><a href="hand2d.html">by hand, in 2D</a></td>
+            </tr>
+            <tr>
+                <td><a href="cpu3d.html">digitally, in 3D</a></td>
+                <td><a href="cpu2d.html">digitally, in 2D</a></td>
+            </tr>
+        </table>
+    </div>
     <h1><a href="index.html"> HOME</a></h1>
 </body>
 </html>
-
