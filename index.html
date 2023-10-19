@@ -4,9 +4,13 @@
     <link rel="icon" href="e.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.typekit.net/asx7llg.css">
     <style>
+        :root{
+            --width : 300px;
+            --marg : 50px;
+        }
         body{
-            margin : 0 50px;
-            max-width = 400px;
+            margin : 0 var(--marg);
+            max-width = var(--width);
         }
         h1{
             font-family: neue-haas-grotesk-display, sans-serif;
@@ -31,45 +35,37 @@
             color : red;
         }
         .frame{
-            width: 400px;
-            height: 647px;
+            width: var(--width);
+            height: var(--width)*1.618;
             border: 1px solid #000000;
-            padding: 25px;
-            display: flex;
+            padding: var(--marg) / 2;
         }
-        .within {
-            flex: 1; /* Allow content to take available space */
-            padding-right: 20px; /* Add space between content and image */
-        }
-
-        .image {
-            max-width: 100%; /* Ensure the image doesn't exceed its container width */
+        .image{
+            max-width : var(--width) - var(--marg);
         }
     </style>
 </head>
 <body>
     <div class="frame">
-        <div class="within">
-            <h1>ELI HARRELL</h1>
-    
-            <table>
-                <tr>
-                    <td>Portfolio</td>
-                    <td><a href="biography.html"><i>...in order.</i></a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><a href="works.html"><i>...by type.</i></a></td>
-                </tr>
-            </table>
-            
-            <p>
-               A student.
-            </p>
-        </div>
-    </div>
+        <h1>ELI HARRELL</h1>
+
+        <table>
+            <tr>
+                <td>portfolio</td>
+                <td><a href="biography.html"><i>...in order.</i></a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a href="works.html"><i>...by type.</i></a></td>
+            </tr>
+        </table>
+        
+        <p>
+           a student.
+        </p>
     <div class="image">
-        <img src="e.png" height=647>
+        <img src="e.png" width=100% />
+    </div>
     </div>
 </body>
 </html>
