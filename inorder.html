@@ -63,6 +63,31 @@
 			padding : 0px;
 			background-color : #fff;
 		}
+		
+	    tr td.image {
+	        position: relative;
+	    }
+		
+		tr td.image::before {
+		  background-color: #9bb7e0;
+		  content: '';
+		  display: block;
+		  width: 100%;
+		  height: 100%;
+		  mix-blend-mode: screen;
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		}
+
+	    tr:hover td.image img {
+	        filter: grayscale(0%)
+					brightness(100%)
+					contrast(100%)
+					sepia(0%)
+					hue-rotate(0deg); /* Reset filter on hover */
+	    }
+		
     </style>
 </head>
 <body>
