@@ -3,9 +3,31 @@
     <title>computer ~ 3D</title>
     <link rel="icon" href="e.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.typekit.net/asx7llg.css">
+	<svg height="0">
+		<filter id="duotone">
+			<feColorMatrix type="matrix"
+		 	 	values="0.33 0.33 0.33 0 0
+		  		  		0.33 0.33 0.33 0 0
+				  	  	0.33 0.33 0.33 0 0
+						0    0    0    1 0">
+			</feColorMatrix>
+			<feComponentTransfer color-interpolation-filters="sRGB" result="duotone">
+				<feFuncR type="table" tableValues="0 1"></feFuncR>
+				<feFuncG type="table" tableValues="0.3098 1"></feFuncG>
+				<feFuncB type="table" tableValues="0.8078 1.0000"></feFuncB>
+				<feFuncA type="table" tableValues="0.0000 1.00000"></feFuncA>
+			</feComponentTransfer>
+		</filter>
+	</svg>
+	
     <style>
+		/*
+		light color: #fafaff  251 251 255
+		dark color:  #9bb7e0  156 199 224
+		*/
+		
         body{
-            max-width = 400px;
+            max-width: 400px;
             margin : 0px 25px;
         }
         h1{
@@ -61,8 +83,19 @@
 		}
 		td.image{
 			padding : 0px;
-			background-color : #fff;
+			background-color : transparent;
 		}
+		
+	    tr td.image img {
+		    position: relative;
+		    filter: url(#duotone);
+			background-clip: content-box;
+	    }
+
+	    tr:hover td.image img {
+	        filter: none;
+	    }
+		
     </style>
 </head>
 <body>
