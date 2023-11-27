@@ -1,0 +1,138 @@
+<html>
+<head>
+	<title>ERG</title>
+	<link rel="icon" href="e.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.typekit.net/asx7llg.css">
+	<style>
+		body{
+			max-width = 400px;
+			margin : 0px 25px;
+			text-align : justify;
+		}
+		h1{
+			font-family: neue-haas-grotesk-display, sans-serif;
+			font-size : 20px;
+		}
+		p.normal{
+			font-family: century-old-style-std, serif;
+			font-style : normal;
+		}
+		p.italic{
+			font-family: century-old-style-std, serif;
+			font-style : italic;
+		}
+		ul{
+			list-style-type: none;
+		}
+		a{
+			text-decoration : none;
+			color : #004fce;
+		}
+		a:hover{
+			color : #9bb7e0;
+		}
+		.frame{
+			width: 600px;
+			display : flex;
+			flex-direction: column;
+			margin-top : 25px;
+		}
+		.image{
+			max-width : 647px;
+		}
+		.content{
+			flex : 1;
+			margin-bottom : 25px;
+			margin-top : -15px;
+		}
+		table{
+			width : 100%;
+			height : 100%;
+			border-collapse : collapse;
+		}
+		th, td{
+			border : 0px solid #000;
+			padding : 25px;
+			vertical-align : top;
+			width : 150px;
+			text-align : justify;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="frame">
+			<div class="content">
+				<a href="index.html" style="color : #dadadf">
+					<h1> ELI HARRELL </h1>
+				</a>
+				<h1>Environmental Research Group</h1>
+    
+				<p>
+					<a href="cpu2d.html">computer ~ 2D</a> projects.
+					<br><br>
+					I contributed these spatial analyses to the <a href="https://enviroresearchgroup.github.io/erg/" target="_blank" rel="noopener noreferrer"> Environmental Research Group's</a>  whitepapers for <a href="https://enviroresearchgroup.github.io/erg/z-covid19-air-pollution.html" target="_blank" rel="noopener noreferrer">2020</a> and <a href="https://enviroresearchgroup.github.io/erg/z-green-space-chicago.html" target="_blank" rel="noopener noreferrer">2021</a>.
+					<br><br>
+					<i> click images to view them at full size.</i>
+				
+				</p>
+				<table>
+					<tr>
+						<td id="parks">
+							Autumn 2021<br><br>~<br><br>
+							
+							In this analysis, I sought to answer the question: <i>Are Chicago's parks
+								where they should be?</i>
+							
+								<br><br>
+								This map visualizes each the "service area" of each of Chicago's hundreds of 							parks. I defined these areas as those for which a given park is the closest park;
+								in other words, if you wanted to go to a park from a given block, which park 							would you go to?
+							
+								<br><br>
+								I found that the Southwest and West Sides of the city have the most 							overburdened parks, meaning they are the closest park for a disproportionately
+								population. Three on the Southwest Side are the closest for more than 18,000 people, while most near the lake are shared by under 2,000.
+							</td>
+							<td style="width: 66%">
+								<a href="images/park-service-area.pdf" target="_blank" rel="noopener noreferrer">
+									<img src="images/park-service-area.jpg" width=300%>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td id="trains">
+								Autumn 2020<br><br>~<br><br>
+								
+								In this analysis, I sought to answer the question: <i>Where, when, and how much did people stop using 								Chicago's trains in 2020?</i>
+								
+								<br><br>
+								I approached this question using a counterfactual: what if the pandemic had not happened? Using data (<a href="erg-ridership-data.xlsx" target="_blank" rel="noopener noreferrer">download</a>) from 2013 to 2019, I made a prediction for what the ridership of that station would be in each month of 2020. Then, I divided the actual ridership of that station in that month of 2020 by this prediction to obtain the percentage decrease in ridership that was due to the pandemic. 
+								
+								<br><br>
+								The grey circles show the percentage decrease in ridership due to the pandemic (larger = closer to 100% below predicted ridership). <br><br> The color of the circles represents whether that station had above or below system average ridership in that month of 2020 (bluer = above average, redder = below average). 
+								
+								<br><br>
+								This helps us see which parts of Chicago used or did not use the train disproportionately during the 								pandemic. It shows us that poorer neighborhoods on the South and West Sides continued taking the train, 
+								while wealthier neighborhoods in the North stopped in greater numbers, and earlier in 2020 (before March).
+							</td>
+							<td style="width: 66%">
+								<a href="images/ridership.gif" target="_blank" rel="noopener noreferrer">
+									<img src="images/ridership.gif" width=150%>
+								</a>
+								<br><br>
+								See an individual month's frame with its link: <br>
+								<a href="images/ridership1.png" target="_blank" rel="noopener noreferrer">jan</a> • 
+								<a href="images/ridership2.png" target="_blank" rel="noopener noreferrer">feb</a> • 
+								<a href="images/ridership3.png" target="_blank" rel="noopener noreferrer">mar</a> • 
+								<a href="images/ridership4.png" target="_blank" rel="noopener noreferrer">apr</a> • 
+								<a href="images/ridership5.png" target="_blank" rel="noopener noreferrer">may</a> • 
+								<a href="images/ridership6.png" target="_blank" rel="noopener noreferrer">jun</a> • 
+								<a href="images/ridership7.png" target="_blank" rel="noopener noreferrer">jul</a> • 
+								<a href="images/ridership8.png" target="_blank" rel="noopener noreferrer">aug</a> • 
+								<a href="images/ridership9.png" target="_blank" rel="noopener noreferrer">sep</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<h1><a href="index.html"><img src="e.png" width=24px></a></h1>
+		</body>
+		</html>
