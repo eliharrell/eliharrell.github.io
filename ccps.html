@@ -1,0 +1,159 @@
+<html>
+<head>
+    <title>Plastic Shapes</title>
+    <link rel="icon" href="e.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.typekit.net/asx7llg.css">
+    <style>
+        body{
+            max-width: 400px;
+            margin : 0px 25px;
+			text-align : justify;
+        }
+        h1{
+            font-family: neue-haas-grotesk-display, sans-serif;
+            font-size : 20px;
+        }
+        p.normal{
+            font-family: century-old-style-std, serif;
+            font-style : normal;
+        }
+        p.italic{
+            font-family: century-old-style-std, serif;
+            font-style : italic;
+        }
+        ul{
+            list-style-type: none;
+        }
+        a{
+            text-decoration : none;
+            color : #004fce;
+        }
+        a:hover{
+            color : #9bb7e0;
+        }
+        .frame{
+            width: 600px;
+            display : flex;
+            flex-direction: column;
+            margin-top : 25px;
+        }
+        .image{
+            max-width : 647px;
+        }
+        .content{
+            flex : 1;
+            margin-bottom : 25px;
+			margin-top : -15px;
+        }
+        table{
+            width : 100%;
+            height : 100%;
+			border-collapse : collapse;
+        }
+        th, td{
+            border : 0px solid #000;
+            padding : 25px;
+			vertical-align : top;
+			width : 150px;
+			text-align : justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <div class="content">
+			<a href="index.html" style="color : #dadadf">
+				<h1> ELI HARRELL </h1>
+			</a>
+            <h1>Plastic Shapes</h1>
+    
+			<p>
+				a set of <a href="cpu3d.html">computer ~ 3D</a> projects
+				<br><br>
+				Modeled in Rhino for <a href="http://gtwoatwo.nextmp.net/" target="_blank" rel="noopener noreferrer">Geoffrey Goldberg</a>'s
+				course Complex Curves/Plastic Shapes.
+				<br><br>
+				<i> click images to view them at full size.</i>
+				
+			</p>
+            <table>
+                <tr>
+                    <td>
+						A fragment.
+					</td>
+                    <td style="width: 66%">
+						<a href="images/ccps1.jpg" target="_blank" rel="noopener noreferrer">
+							<img src="images/ccps1.jpg" width=100%>
+						</a>
+						<br><br>
+						<a href="images/ccps1-2.jpg" target="_blank" rel="noopener noreferrer">
+							<img src="images/ccps1-2.jpg" width=100%>
+						</a>
+					</td>
+                </tr>
+                <tr>
+                    <td>
+						An interpretation of Arp's <i>Crown of Buds</i> (1936).
+					</td>
+                    <td style="width: 66%">
+						<a href="images/ccps2.jpg" target="_blank" rel="noopener noreferrer">
+							<img src="images/ccps2.jpg" width=100%>
+						</a>
+					</td>
+                </tr>
+                <tr>
+                    <td>
+						A surface. Click for a different perspective. <br><br>
+						<a href="#" onclick="swapImg('images/ccps5-plan.png'); return false;">top</a><br>
+						<a href="#" onclick="swapImg('images/ccps5-bottom.png'); return false;">bottom</a><br>
+						<a href="#" onclick="swapImg('images/ccps5-front.png'); return false;">front</a><br>
+						<a href="#" onclick="swapImg('images/ccps5-frontbottomright-iso.png'); return false;">front bottom right</a><br>
+						<a href="#" onclick="swapImg('images/ccps5-back.png'); return false;">back</a><br>
+						<a href="#" onclick="swapImg('images/ccps5-backtopright-iso.png'); return false;">back top right</a><br>
+						<a href="#" onclick="swapImg('images/ccps5-backtopleft-iso.png'); return false;">back top left</a><br>
+						<a href="#" onclick="swapImg('images/ccps5-right.png'); return false;">side</a><br>
+					</td>
+                    <td style="width: 66%">
+						<a id="fullImageLink" href="images/ccps5-backtopright-iso.png" target="_blank" rel="noopener noreferrer">
+							<img src="images/ccps5-backtopright-iso.png" width=100% id="surface" onclick="openFullImage()">
+						</a>
+					</td>
+                </tr>
+                <tr>
+                    <td>
+						A line in space. It touches its bounds in three places.
+					</td>
+                    <td style="width: 66%">
+						<a href="images/ccps3.pdf" target="_blank" rel="noopener noreferrer">
+							<img src="images/ccps3.jpg" width=100%>
+						</a>
+					</td>
+                </tr>
+                <tr>
+                    <td>
+						Two cubes, interpreting Georges Vantongerloo's <i>Variation on the inscribed square and the circumscribed square of a circle</i> (1929). <br><br>The space of mass in one cube is the space of void in the other.
+					</td>
+                    <td style="width: 66%">
+						<a href="images/ccps4.pdf" target="_blank" rel="noopener noreferrer">
+							<img src="images/ccps4.jpg" width=200%>
+						</a>
+					</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+	<h1><a href="index.html"><img src="e.png" width=24px></a></h1>
+	
+    <script>
+           // function that swaps image of surface when link is clicked
+           function swapImg(imgSource) {
+               document.getElementById('surface').src = imgSource;
+           }
+		   
+		   function openFullImage() {
+		       var currentImageSrc = document.getElementById('surface').src;
+		       document.getElementById('fullImageLink').href = currentImageSrc;
+		   }
+	</script>
+</body>
+</html>
