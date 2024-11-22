@@ -1,0 +1,108 @@
+<html>
+<head>
+    <title>D3 Data Visualization</title>
+    <link rel="icon" href="e.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.typekit.net/asx7llg.css">
+    <style>
+        body{
+            max-width = 400px;
+            margin : 0px 25px;
+			text-align : justify;
+        }
+        h1{
+            font-family: neue-haas-grotesk-display, sans-serif;
+            font-size : 20px;
+        }
+        p.normal{
+            font-family: century-old-style-std, serif;
+            font-style : normal;
+        }
+        p.italic{
+            font-family: century-old-style-std, serif;
+            font-style : italic;
+        }
+        ul{
+            list-style-type: none;
+        }
+        a{
+            text-decoration : none;
+            color : #004fce;
+        }
+        a:hover{
+            color : #9bb7e0;
+        }
+        .frame{
+            width: 600px;
+            display : flex;
+            flex-direction: column;
+            margin-top : 25px;
+        }
+        .image{
+            max-width : 647px;
+        }
+        .content{
+            flex : 1;
+            margin-bottom : 25px;
+			margin-top : -15px;
+        }
+        table{
+            width : 100%;
+            height : 100%;
+			border-collapse : collapse;
+        }
+        th, td{
+            border : 0px solid #000;
+            padding : 25px;
+			vertical-align : top;
+			width : 150px;
+			text-align : justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <div class="content">
+			<a href="index.html" style="color : #dadadf">
+				<h1> ELI HARRELL </h1>
+			</a>
+            <h1>D3 Data Visualization</h1>
+    
+			<p>
+				a <a href="cpu2d.html">computer ~ 2D</a> project
+				<br><br>
+				I was tasked with creating a better visualization of the inscrutable Asics advertisement below.
+				My design locates the injury rates on a "body map," since it would be the most legible—everyone 
+				can find their knee, but not everyone can read a radial diagram. Like precipitation radar shown on TV,
+				I used a banded colormap to allow the viewer to quickly discriminate the <strong>overall</strong> intensity of a value
+				in a given location, as well as using the legend to look up the <strong>exact</strong> value.
+				<br><br>
+				Alternatively, in acting against every dictum of good data visualization, I produced an even more cryptic representation
+				of the Asics data. Both versions are linked below.
+				<br><br>
+				<a href="datavis/sample-files/sample.htm#good" target="_blank" rel="noopener noreferrer">
+					→ good visualization
+				</a><br>
+				<a href="datavis/sample-files/sample.htm#bad" target="_blank" rel="noopener noreferrer">
+					→ bad visualization
+				</a>
+			</p>
+            <table>
+                <tr>
+                    <td style="width: 66%">
+						<a href="images/datavis-bad.png" target="_blank" rel="noopener noreferrer">
+							<img src="images/datavis-bad.png" width=100%>
+						</a>
+					</td>
+                </tr>
+            </table>
+			Made for <a href="https://people.cs.uchicago.edu/~glk/" target="_blank" rel="noopener noreferrer">Gordon Kindlmann</a>'s Data Visualization course.
+			<br><br>
+			View the JavaScript for each visualization is here: <a href="datavis/good.js" target="_blank" rel="noopener noreferrer">good.js</a> and
+			<a href="datavis/bad.js" target="_blank" rel="noopener noreferrer">bad.js</a>.
+			<br>
+			Additional files: <a href="datavis/util.js" target="_blank" rel="noopener noreferrer">util.js</a>, <a href="datavis/asics.csv" target="_blank" rel="noopener noreferrer">asics.csv</a>,  <a href="datavis/body.svg" target="_blank" rel="noopener noreferrer">body.svg</a>.
+        </div>
+    </div>
+	<h1><a href="index.html"><img src="e.png" width=24px></a></h1>
+</body>
+</html>

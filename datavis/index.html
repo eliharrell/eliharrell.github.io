@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <meta charset="utf-8" />
+    <title>DataVis'24: Good and Bad</title>
+    <link href="style.css" rel="stylesheet" />
+    <style>
+      .cksum-error {
+        background-color: rgb(255, 220, 220);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="vis-container" id="good">
+      <!-- v.v.v.v.v.v.v.v.v.v.v.v.v.v.v  begin student code (index.html good) -->
+      <!-- ^'^'^'^'^'^'^'^'^'^'^'^'^'^'^  end student code -->
+    </div>
+    <hr />
+    <div class="vis-container" id="bad">
+      <!-- v.v.v.v.v.v.v.v.v.v.v.v.v.v.v  begin student code (index.html bad) -->
+      <!-- ^'^'^'^'^'^'^'^'^'^'^'^'^'^'^  end student code -->
+    </div>
+    <hr />
+    <div id="cksum"></div>
+  </body>
+  <script type="module">
+    import * as d3 from './d3.js';
+    import { cksum } from './cksum.js';
+    // both good.js and bad.js export "draw", we rename it here
+    import { draw as drawGood } from './good.js';
+    import { draw as drawBad } from './bad.js';
+    // the usual
+    window.hack = { d3 };
+    const goodbad = ['good', 'bad'];
+    // way to refer to draw()s in following loop
+    const draw = {
+      good: drawGood,
+      bad: drawBad,
+    };
+    // read the data, create svgs, and pass those off to the draw functions
+    d3.csv('./asics.csv').then((data) => {
+      goodbad.forEach((wut) => {
+        const div = document.getElementById(wut);
+        draw[wut](
+          d3 // multiple lines prettier please
+            .select(`#${wut}`)
+            .append('svg')
+            .attr('id', `${wut}Svg`),
+          data.slice(0), // supply copy of data array
+          div.offsetWidth,
+          div.offsetHeight
+        );
+      });
+    });
+    // left and right arrow keys move between #good and #bad
+    const toggle = () => {
+      // https://developer.mozilla.org/en-US/docs/Web/API/Location/href
+      let [href, wut] = window.location.href.split('/#');
+      href = href.replace(/\/+$/, ''); // lose any trailing /
+      // if no /#name in current URL (or if /#bogus), we're at good
+      wut = goodbad.includes(wut) ? wut : 'good';
+      // toggle wut
+      wut = goodbad[1 - goodbad.indexOf(wut)];
+      // move to the other without adding to history
+      window.location.replace(`${href}/#${wut}`);
+    };
+    document.body.addEventListener('keydown', (event) => {
+      if ('ArrowRight' == event.key || 'ArrowLeft' == event.key) toggle();
+    });
+    if (true) {
+      // if (false) to turn off checksums
+      let oops = false;
+      const div = document.querySelector('#cksum');
+      function ckReport(name, got, want) {
+        if (got !== want) {
+          oops = true;
+          div.innerHTML += `cksum(${name}) == ${got} but wanted ${want}<br>`;
+        }
+      }
+      const msg = `This means that you (or your editor's auto-formatter) modified something outside<br>
+        the student code blocks. See if you can undo recent changes, or work from a<br>
+        pristine copy of files from ../datavis24/work/hw5`;
+      Promise.all(
+        [
+          ['cksum.js', 1912595401],
+          ['glkrng.js', 3542979372],
+          ['good.js', 943116424],
+          ['bad.js', 4132187303],
+          // not files that can be freely modified: util.js, style.css, about.md
+          ['index.html', 3057492205],
+        ].map(([fnm, cks]) => cksum(`./${fnm}`).then((crc) => ckReport(fnm, crc, cks)))
+      ).then(() => {
+        if (oops) {
+          div.innerHTML += msg;
+          div.classList.add('cksum-error');
+        }
+      });
+    }
+  </script>
+</html>

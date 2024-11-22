@@ -1,0 +1,24 @@
+/* you can modify this file however you like; but don't create errors */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+  }
+  .vis-container {
+    /* so that the #good and #bad sections vertically take up the screen,
+       even if the svgs within do not */
+    height: 100vh;
+    /* width,height set here will be learned by JS in index.html and passed to draw() */
+    /* horizontally and vertically center content of this container, without having
+    to know anything about the size of our contents, with flexbox
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Aligning_items_in_a_flex_container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* control how an svg inside the vis-container looks, using the new
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting */
+    svg {
+      border-style: dotted;
+      border-color: #888;
+      border-width: 1px;
+    }
+  }

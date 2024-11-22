@@ -1,0 +1,95 @@
+quarter,year,program,day,date,time,week,title,release-year,tickets-sold,passes-used,attendance,format,hour,month,month-day,full-date,language,region,tmdb-popularity,num-genres,Action,Adventure,Animation,Comedy,Crime,Documentary,Drama,Family,Fantasy,History,Horror,Music,Mystery,Romance,Science Fiction,TV Movie,Thriller,War,Western
+spring,2024,rs,mon,,,,Still/Here,2001,,,,,,,,,English,North America,0.6,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,tue,,,,TOUT VA BIEN,1972,,,,,,,,,French,Europe,8.151,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,wed,,,,OPENING NIGHT,1977,,,,,,,,,English,North America,9.564,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,thu1,,,,LOVE UNDER THE CRUCIFIX,1962,,,,,,,,,Japanese,East Asia,2.387,,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0
+spring,2024,rs,thu2,,,,BLACK CHARIOT,1971,,,,,,,,,English,North America,1.4,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,fri,,,,THERE WILL BE BLOOD,2007,,,,,,,,,English,North America,28.406,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,sun1,,,,YOUNG SOUL REBELS,1991,,,,,,,,,English,Europe,2.195,,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0
+spring,2024,rs,sun2,,,,NORTH ON EVERS,1992,,,,,,,,,English,North America,1.695,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,mon,,,,DRYLONGSO,1999,,,,,,,,,English,North America,0.931,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,tue,,,,TROUBLE EVERY DAY,2001,,,,,,,,,French,Europe,11.371,,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0
+spring,2024,rs,wed,,,,ROCCO AND HIS BROTHERS,1960,,,,,,,,,Italian,Europe,12.855,,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+spring,2024,rs,thu1,,,,GIRLS OF THE NIGHT,1961,,,,,,,,,Japanese,East Asia,3.494,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,thu2,,,,COSMIC RAY,1962,,,,,,,,,English,North America,1.185,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+spring,2024,rs,thu2,,,,FRITZ THE CAT,1972,,,,,,,,,English,North America,12.277,,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,fri,,,,THE BITTER TEARS OF PETRA VON KANT,1972,,,,,,,,,German,Europe,8.045,,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+spring,2024,rs,sun1,,,,BALDWIN'S N-,1968,,,,,,,,,English,Europe,1.172,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,sun1,,,,PERFECT IMAGE?,1989,,,,,,,,,English,Europe,1.09,,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+spring,2024,rs,sun2,,,,FOUR CORNERS,1997,,,,,,,,,English,North America,0.6,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,mon,,,,"HALE COUNTY, THIS MORNING, THIS EVENING",2018,,,,,,,,,English,North America,3.176,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,tue,,,,PERSONAL SHOPPER,2016,,,,,,,,,English,Europe,12.131,,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0
+spring,2024,rs,wed,,,,BAD EDUCATION,2004,,,,,,,,,Spanish,Europe,9.897,,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+spring,2024,rs,thu1,,,,THE WANDERING PRINCESS,1960,,,,,,,,,Japanese,East Asia,1.255,,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0
+spring,2024,rs,thu2,,,,SHE WAS A VISITOR,1970,,,,,,,,,English,North America,0.6,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,thu2,,,,EYE MUSIC IN RED MAJOR,1961,,,,,,,,,English,North America,0.801,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,thu2,,,,SCAPE-MATES,1972,,,,,,,,,English,North America,0.6,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,thu2,,,,BLEU SHUT,1971,,,,,,,,,English,North America,0.67,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,fri,,,,SELENA,1997,,,,,,,,,English,North America,18.364,,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0
+spring,2024,rs,sun1,,,,BABYLON,1980,,,,,,,,,English,Europe,3.643,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,sun2,,,,O PANAMA,1985,,,,,,,,,English,North America,0.911,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,sun2,,,,AMERICAN DREAMS: LOST AND FOUND,1984,,,,,,,,,English,North America,0.681,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,mon,,,,JUST ANOTHER GIRL ON THE IRT,1993,,,,,,,,,English,North America,1.525,,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+spring,2024,rs,tue,,,,"WHO ARE YOU, POLLY MAGGOO?",1966,,,,,,,,,French,Europe,4.367,,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,wed,,,,5 BROKEN CAMERAS,2012,,,,,,,,,English,Middle East,5.435,,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0
+spring,2024,rs,wed,,,,ELECTRICAL GAZA,2015,,,,,,,,,Arabic,Middle East,1.095,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,thu1,,,,DRAGNET GIRL,1933,,,,,,,,,Japanese,East Asia,1.823,,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+spring,2024,rs,thu2,,,,LUPE,1966,,,,,,,,,English,North America,0.6,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,thu2,,,,FLAMING CREATURES,1963,,,,,,,,,English,North America,2.557,,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+spring,2024,rs,fri,,,,STOP MAKING SENSE,1984,,,,,,,,,English,North America,11.341,,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+spring,2024,rs,sun1,,,,LOVERS ROCK,2020,,,,,,,,,English,Europe,0.6,,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+spring,2024,rs,sun1,,,,GRENFELL,2018,,,,,,,,,English,Europe,1.348,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,sun2,,,,11X14,1977,,,,,,,,,English,North America,0.74,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,mon,,,,ALMA'S RAINBOW,1994,,,,,,,,,English,North America,0.735,,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,tue,,,,Marie Antoinette,2006,,,,,,,,,English,Europe,26.384,,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+spring,2024,rs,wed,,,,BREAKING THE WAVES,1996,,,,,,,,,Danish,Europe,15.51,,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+spring,2024,rs,thu1,,,,THE MOON HAS RISEN,1955,,,,,,,,,Japanese,East Asia,1.809,,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+spring,2024,rs,thu2,,,,DEMENTIA,1955,,,,,,,,,English,North America,4.675,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+spring,2024,rs,thu2,,,,WHAT REALLY HAPPENED TO BABY JANE,1963,,,,,,,,,English,North America,0.6,,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+spring,2024,rs,fri,,,,LUPIN III: THE CASTLE OF CAGLIOSTRO,1979,,,,,,,,,Japanese,East Asia,20.809,,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,sun2,,,,SOGOBI,2002,,,,,,,,,English,North America,0.6,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,mon,,,,PERSONAL PROBLEMS,1980,,,,,,,,,English,North America,1.47,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,tue,,,,SIMON KILLER,2012,,,,,,,,,English,Europe,4.662,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+spring,2024,rs,wed,,,,KAGEMUSHA,1980,,,,,,,,,Japanese,East Asia,19.423,,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0
+spring,2024,rs,thu1,,,,UGETSU,1953,,,,,,,,,Japanese,East Asia,11.189,,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0
+spring,2024,rs,thu2,,,,INAUGURATION OF THE PLEASURE DOME,1954,,,,,,,,,English,North America,2.96,,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+spring,2024,rs,thu2,,,,BLOOD FEAST,1963,,,,,,,,,English,North America,10.215,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+spring,2024,rs,fri,,,,HEAT,1995,,,,,,,,,English,North America,53.293,,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,sun2,,,,LOS,2001,,,,,,,,,English,North America,1.301,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,mon,,,,BLESS THEIR LITTLE HEARTS,1984,,,,,,,,,English,North America,1.737,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,tue,,,,THE STORY OF A THREE DAY PASS,1968,,,,,,,,,French,Europe,1.24,,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+spring,2024,rs,tue,,,,MEETING THE MAN: JAMES BALDWIN IN PARIS,1971,,,,,,,,,English,Europe,1.429,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,wed,,,,FUNNY GAMES,1997,,,,,,,,,German,Europe,20.389,,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0
+spring,2024,rs,thu1,,,,LOVE LETTER,1953,,,,,,,,,Japanese,East Asia,1.835,,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+spring,2024,rs,thu2,,,,LSD WALL,1965,,,,,,,,,English,North America,0.6,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,thu2,,,,DEADLY WEAPONS,1974,,,,,,,,,English,North America,4.297,,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,fri,,,,CABARET,1972,,,,,,,,,English,North America,15.974,,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0
+spring,2024,rs,thu2,,,,ERASERHEAD,1977,,,,,,,,,English,North America,23.507,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+spring,2024,rs,sun2,,,,EL VALLEY CENTRO,1999,,,,,,,,,English,North America,1.4,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,mon,,,,EVE'S BAYOU,1997,,,,,,,,,English,North America,13.966,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,tue,,,,PARIS BELONGS TO US,1961,,,,,,,,,French,Europe,5.636,,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0
+spring,2024,rs,wed,,,,COME AND SEE,1985,,,,,,,,,Russian,Europe,29.532,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+spring,2024,rs,thu1,,,,SANSHO THE BAILIFF,1954,,,,,,,,,Japanese,East Asia,12.26,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,thu2,,,,EXCITED TURKEYS,1966,,,,,,,,,English,North America,0.6,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,fri,,,,YI YI,2000,,,,,,,,,Chinese,East Asia,11.968,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,sun2,,,,DESERET,1996,,,,,,,,,English,North America,0.655,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,mon,,,,DAUGHTERS OF THE DUST,1991,,,,,,,,,English,North America,4.375,,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+spring,2024,rs,tue,,,,CHARADE,1963,,,,,,,,,English,North America,13.143,,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+spring,2024,rs,wed,,,,BRAZIL,1985,,,,,,,,,English,Europe,17.016,,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+spring,2024,rs,thu1,,,,FOREVER A WOMAN,1955,,,,,,,,,Japanese,East Asia,3.798,,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+spring,2024,rs,thu2,,,,STRIP STRIP,1968,,,,,,,,,English,North America,0.6,,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+spring,2024,rs,thu2,,,,PINK FLAMINGOS,1972,,,,,,,,,English,North America,13.577,,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,fri,,,,FIGHT CLUB,1999,,,,,,,,,English,North America,71.253,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,rs,sun2,,,,LANDSCAPE SUICIDE,1987,,,,,,,,,English,North America,2.52,,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,nr,sat3,,,,The Taste of Things,2023,,,,,,,,,French,Europe,18.878,,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+spring,2024,nr,sat3,,,,Perfect Days,2023,,,,,,,,,Japanese,East Asia,42.538,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,nr,sat3,,,,Do Not Expect Too Much From the End of the World,2023,,,,,,,,,Romanian,Europe,3.903,,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,nr,sat3,,,,Napoleon,2023,,,,,,,,,English,North America,641.688,,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0
+spring,2024,nr,sat3,,,,Atlantis,2019,,,,,,,,,Ukrainian,Europe,4.222,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+spring,2024,nr,sat3,,,,Pictures of Ghosts,2023,,,,,,,,,Portuguese,Latin America,3.602,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,nr,sat3,,,,Rojek,2023,,,,,,,,,Kurdish,Middle East,0.958,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+spring,2024,nr,sat3,,,,Trenque Lauquen,2023,,,,,,,,,Spanish,Latin America,9.662,,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0
+spring,2024,nr,sat3,,,,Cassandro,2023,,,,,,,,,English,Latin America,19.894,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+spring,2024,se,se,,,,Reefer Madness,1936,,,,,,,,,English,North America,0.6,,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+spring,2024,se,se,,,,Boys in the Boat,2023,,,,,,,,,English,North America,51.689,,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+spring,2024,se,se,,,,Murderball,2005,,,,,,,,,English,North America,7.451,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0

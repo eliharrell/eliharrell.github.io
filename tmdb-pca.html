@@ -1,0 +1,133 @@
+<html>
+<head>
+    <title>Data Mining For Graphics</title>
+    <link rel="icon" href="e.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.typekit.net/asx7llg.css">
+    <style>
+        body{
+            max-width = 400px;
+            margin : 0px 25px;
+			text-align : justify;
+        }
+        h1{
+            font-family: neue-haas-grotesk-display, sans-serif;
+            font-size : 20px;
+        }
+        p.normal{
+            font-family: century-old-style-std, serif;
+            font-style : normal;
+        }
+        p.italic{
+            font-family: century-old-style-std, serif;
+            font-style : italic;
+        }
+        ul{
+            list-style-type: none;
+        }
+        a{
+            text-decoration : none;
+            color : #004fce;
+        }
+        a:hover{
+            color : #9bb7e0;
+        }
+        .frame{
+            width: 600px;
+            display : flex;
+            flex-direction: column;
+            margin-top : 25px;
+        }
+        .image{
+            max-width : 647px;
+        }
+        .content{
+            flex : 1;
+            margin-bottom : 25px;
+			margin-top : -15px;
+        }
+        table{
+            width : 100%;
+            height : 100%;
+			border-collapse : collapse;
+        }
+        th, td{
+            border : 0px solid #000;
+            padding : 25px;
+			vertical-align : top;
+			width : 150px;
+			text-align : justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <div class="content">
+			<a href="index.html" style="color : #dadadf">
+				<h1> ELI HARRELL </h1>
+			</a>
+            <h1>Data Mining For Graphics</h1>
+    
+			<p>
+				a <a href="cpu2d.html">computer ~ 2D</a> project
+				<br><br>
+				I used principal component analysis (PCA) to create an unorthodox way of representing the relationship between films in
+				a single season of programming at student-run cinema Doc Films, in collaboration with designer
+				<a href="https://ineskang.cargo.site/" target="_blank" rel="noopener noreferrer">Ines Kang</a>. There in an odd relationship
+				between the rectilinearity of truly human curation, the typical program, and the quasi-organic forms of algorithmic recommendation,
+				which is largely a sophisticated version of the same technique visualized here.
+				<br><br>
+				<i> click images to view them at full size.</i>
+				
+			</p>
+            <table>
+                <tr>
+                    <td>
+					   	Recto of spring 2024 calendar. <br><br>
+						Instead of showing the conventional column of programmer-selected films on each corresponding day of the week, 
+						this technique spatializes the screenings based on their 
+						<a href="https://www.themoviedb.org/" target="_blank" rel="noopener noreferrer">TMDB</a> metadata: 
+						release year, language, user popularity, and genres.
+					   	<br><br>
+					</td>
+                    <td style="width: 66%">
+						<a href="images/doc-spr24-calendar.jpg" target="_blank" rel="noopener noreferrer">
+							<img src="images/doc-spr24-calendar.jpg" width=100%>
+						</a>
+					</td>
+                </tr>
+                <tr>
+                    <td>
+						Output from minimal path algorithm run on the output of the PCA process
+						(<a href="tmdb-pca/film-pca.py" target="_blank" rel="noopener noreferrer">film-pca.py</a>),
+						which placed each film's dot nearest
+						to the other films which resemble it in the database (same language, similar popularity, etc.).
+					</td>
+                    <td style="width: 66%">
+						<a href="images/doc-spr24-shortestpath-pca.pdf" target="_blank" rel="noopener noreferrer">
+							<img src="images/doc-spr24-shortestpath-pca.jpg" width=100%>
+						</a>
+					</td>
+                </tr>
+                <tr>
+                    <td>
+						To build a clean dataset (<a href="tmdb-pca/spr24-tmbd-data.csv" target="_blank" rel="noopener noreferrer">.csv</a>),
+						I created an interactive Python search function
+						(<a href="tmdb-pca/api-search.py" target="_blank" rel="noopener noreferrer">.py</a>)
+						to extract the correct metadata from the TMDB API based on the
+						film's title.
+					</td>
+                    <td style="width: 66%">
+						<a href="images/tmdb-api-interface.png" target="_blank" rel="noopener noreferrer">
+							<img src="images/tmdb-api-interface.png" width=100%>
+						</a><br><br>
+						<a href="images/spr24-tmdb-data.png" target="_blank" rel="noopener noreferrer">
+							<img src="images/spr24-tmdb-data.png" width=100%>
+						</a>
+					</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+	<h1><a href="index.html"><img src="e.png" width=24px></a></h1>
+</body>
+</html>
