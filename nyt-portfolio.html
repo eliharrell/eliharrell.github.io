@@ -1,0 +1,231 @@
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="icon" href="e.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.typekit.net/asx7llg.css">
+	<svg height="0">
+		<filter id="duotone">
+			<feColorMatrix type="matrix"
+		 	 	values="0.33 0.33 0.33 0 0
+		  		  		0.33 0.33 0.33 0 0
+				  	  	0.33 0.33 0.33 0 0
+						0    0    0    1 0">
+			</feColorMatrix>
+			<feComponentTransfer color-interpolation-filters="sRGB" result="duotone">
+				<feFuncR type="table" tableValues="0 1"></feFuncR>
+				<feFuncG type="table" tableValues="0.3098 1"></feFuncG>
+				<feFuncB type="table" tableValues="0.8078 1.0000"></feFuncB>
+				<feFuncA type="table" tableValues="0.0000 1.00000"></feFuncA>
+			</feComponentTransfer>
+		</filter>
+	</svg>
+	
+    <style>
+		/*
+		light color: #fafaff  251 251 255
+		dark color:  #9bb7e0  156 199 224
+		*/
+		
+        body{
+            max-width: 400px;
+            margin : 0px 25px;
+        }
+        h1{
+            font-family: neue-haas-grotesk-display, sans-serif;
+            font-size : 20px;
+        }
+        p.normal{
+            font-family: century-old-style-std, serif;
+            font-style : normal;
+        }
+        p.italic{
+            font-family: century-old-style-std, serif;
+            font-style : italic;
+        }
+        ul{
+            list-style-type: none;
+        }
+        a{
+            text-decoration : none;
+            color : #004fce;
+        }
+        a:hover{
+            color : #9bb7e0;
+        }
+        .frame{
+            width: 595px;
+            display : flex;
+            flex-direction: column;
+            margin-top : 25px;
+        }
+        .image{
+            max-width : 647px;
+        }
+        .content{
+            flex : 1;
+            margin-bottom : 25px;
+			margin-top : -15px;
+        }
+        table{
+            width : 100%;
+            height : 100%;
+			border-collapse : collapse;
+        }
+        th, td{
+            border : 12px solid #fff;
+            padding : 25px;
+			vertical-align : bottom;
+        }
+		td.text{
+			background-color: #fafaff;
+			padding : 25px;
+			width : 295px;
+		}
+		td.image{
+			padding : 0px;
+			background-color : transparent;
+		}
+		
+	    tr td.image img {
+		    position: relative;
+		    filter: url(#duotone);
+			background-clip: content-box;
+	    }
+
+	    tr:hover td.image img {
+	        filter: none;
+	    }
+		
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <div class="content">
+			<a href="index.html" style="color : #dadadf">
+				<h1> ELI HARRELL </h1>
+			</a>
+            <h1>Portfolio</h1>
+    		<p>Selected projects, 2017–2024.</p>
+            <table>
+                <tr>
+                    <td class="text">
+						<i>Computation</i>
+						<br><br>
+						<a href="tmdb-pca.html">
+							Metadata Map (2024)
+						</a><br>
+						<a href="datavis.html">
+							D3.js Injury Forecast (2024)
+						</a><br>
+						<a href="nitassinan.html">
+							Nitassinan Dictionary (2023)
+						</a>
+					</td>
+                    <td class="image">
+						<img src="images/doc-spr24-calendar.jpg" width=100%>
+					</td>
+                </tr>
+                <tr>
+                    <td class="text">
+						<i>Cartography</i>
+						<br><br>
+						<a href="beauty-map.html">
+							Beauty Retail (2022)
+						</a><br>
+						<a href="bikehp.html">
+							Road Texture (2022)
+						</a><br>
+						<a href="erg.html#parks">
+							Park Access (2021)
+						</a><br>
+						<a href="erg.html#trains">
+							COVID Transit (2020)
+						</a>
+					</td>
+                    <td class="image">
+						<img src="images/ridership3.png" width=100%>
+					</td>
+                </tr>
+                <tr>
+                    <td class="text">
+						<i>Graphic Design</i>
+						<br><br>
+						<a href="docfilms.html">
+							Doc Films (2022–2024)
+						</a><br>
+						<a href="signal.html">
+							<i>Signal</i> Magazine (2023)
+						</a><br>
+						<a href="harold.html">
+							Calculus picture book (2020)
+						</a><br>
+					</td>
+                    <td class="image">
+						<img src="images/doc-spr23-calendar.jpg" width=100%>
+					</td>
+                </tr>
+                <tr>
+                    <td class="text">
+						<i>Film</i>
+						<br><br>
+						<a href="tnc.html">
+							Transparent Not Clear (2024)
+						</a><br>
+						<a href="iww.html">
+							I Want Windows (2024)
+						</a><br>
+						<a href="45m.html">
+							45 Minutes (2024)
+						</a><br>
+						<a href="https://www.youtube.com/watch?v=aGv5VvUk8IY">
+							Plane (2020)
+						</a><br><br>
+						All-American High School Film Festival
+						<a href="https://youtu.be/1r9JTrl3uNU?si=Y2LPd4_mPLOuEwbi">
+							produce: Divine State of the First Date (2019)
+						</a><br>
+						<a href="https://youtu.be/1r9JTrl3uNU?si=Y2LPd4_mPLOuEwbi">
+							edit: The Art of His Studio (2018)
+						</a><br>
+						<a href="https://youtu.be/QIuShLj2Yp0?si=zzwZUueXbbtpJyiF">
+							write/edit: Twonk Boy (2017)
+						</a>
+					</td>
+                    <td class="image">
+						<img src="images/iww-9.png" width=100%><br><br>
+						<img src="images/tnc-5.JPG" width=100%>
+					</td>
+                </tr>
+                <tr>
+                    <td class="text">
+						<i>Errata: Architecture, Fabrication, and Web</i>
+						<br><br>
+						<a href="https://tentoday.net/">
+							Writers' Collective Website (2024)
+						</a><br>
+						<a href="https://kendra-erin.com/">
+							Artist's Website (2024)
+						</a><br>
+						<a href="documents-exhibit.html">
+							Film Ephemera Exhibition Design (2024)
+						</a><br>
+						<a href="ccps.html">
+							3D Modeling Curved Forms (2024)
+						</a><br>
+						<a href="booth.html">
+							Pop-Up Radio Station (2023)
+						</a><br>
+						<a href="pittsburgh.html">
+							Pittsburgh Residential Housing (2022)
+						</a>
+					</td>
+                    <td class="image">
+						<img src="images/booth7.jpeg" width=100%>
+					</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+	<h1><a href="index.html"><img src="e.png" width=24px></a></h1>
+</body>
+</html>

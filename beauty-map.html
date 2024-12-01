@@ -1,0 +1,135 @@
+<html>
+<head>
+    <title>Beauty Map</title>
+    <link rel="icon" href="e.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.typekit.net/asx7llg.css">
+    <style>
+        body{
+            max-width = 400px;
+            margin : 0px 25px;
+			text-align : justify;
+        }
+        h1{
+            font-family: neue-haas-grotesk-display, sans-serif;
+            font-size : 20px;
+        }
+        p.normal{
+            font-family: century-old-style-std, serif;
+            font-style : normal;
+        }
+        p.italic{
+            font-family: century-old-style-std, serif;
+            font-style : italic;
+        }
+        ul{
+            list-style-type: none;
+        }
+        a{
+            text-decoration : none;
+            color : #004fce;
+        }
+        a:hover{
+            color : #9bb7e0;
+        }
+        .frame{
+            width: 600px;
+            display : flex;
+            flex-direction: column;
+            margin-top : 25px;
+        }
+        .image{
+            max-width : 647px;
+        }
+        .content{
+            flex : 1;
+            margin-bottom : 25px;
+			margin-top : -15px;
+        }
+        table{
+            width : 100%;
+            height : 100%;
+			border-collapse : collapse;
+        }
+        th, td{
+            border : 0px solid #000;
+            padding : 25px;
+			vertical-align : top;
+			width : 150px;
+			text-align : justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <div class="content">
+			<a href="index.html" style="color : #dadadf">
+				<h1> ELI HARRELL </h1>
+			</a>
+            <h1>Mapping Beauty Access</h1>
+    
+			<p>
+				Chicago is perhaps the most mapped city in America, and most of these
+				<a href="https://www.lib.uchicago.edu/collex/exhibits/mapping-young-metropolis/mapping-chicago/" target="_blank" rel="noopener noreferrer">maps</a>
+				reinscribe the same North-South or center-periphery
+				pattern studied by. Access to beauty services, defined as salons or supply stores, is quite different.
+				Using a Google Maps scraping tool, I sampled the distribution of these establishments and created a "beauty accessibility index" (BAI) for
+				each census tract in the city.
+				<br><br>
+				<i> click images to view them at full size.</i>
+				
+			</p>
+            <table>
+                <tr>
+                    <td>
+					   	The city-level pattern. The darkest orange areas are the most underserved by beauty retailers, with few nearby relative to their population, 						while purple areas are better-served than average.
+					</td>
+                    <td style="width: 66%">
+						<a href="images/bty-index.pdf" target="_blank" rel="noopener noreferrer">
+							<img src="images/bty-index.jpg" width=100%>
+						</a>
+					</td>
+                </tr>
+                <tr>
+                    <td>
+					   	A snippet of Logan Square. Purple tracts have more beauty salons and stores per capita (<i>p</i>), 
+						more within walking distance (<i>w</i>), nearer nearest location (<i>n</i>) and shorter average distances to these businesses (<i>m</i>).
+					   	<br><br>
+						<i>p</i>: tract population<br>
+						<i>w</i>: qty. within 0.75mi<br>
+						<i>n</i>: dist. to nearest<br>
+						<i>m</i>: mean dist. to any<br><br>
+						<i>Z</i>(•): Z-score function
+					</td>
+                    <td style="width: 66%">
+						<a href="images/bty-index.pdf" target="_blank" rel="noopener noreferrer">
+							<img src="images/bty-snippet.png" width=100%>
+						</a>
+						<br><br>
+						<img src="images/bai-eq.png" width=100%>
+					</td>
+                </tr>
+                <tr>
+                    <td>
+						Snippets of the separate tract-level maps of raw counts and distances weighted together to form the above BAI map.
+					</td>
+                    <td style="width: 66%">
+						&nbsp; <i>Number of salons/shops within 15-minute walk</i><br>
+						<a href="images/walkable-beauty.pdf" target="_blank" rel="noopener noreferrer">
+							<img src="images/walkable-beauty.png" width=136%>
+						</a><br><br>
+						&nbsp; <i>Distance to nearest salon/shop</i><br>
+						<a href="images/nearest-beauty.pdf" target="_blank" rel="noopener noreferrer">
+							<img src="images/nearest-beauty.png" width=136%>
+						</a><br><br>
+						&nbsp; <i>Mean distance to any salon/shop in Chicago</i><br>
+						<a href="images/mean-beauty.pdf" target="_blank" rel="noopener noreferrer">
+							<img src="images/mean-beauty.png" width=136%>
+						</a><br><br>
+					</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+	<h1><a href="index.html"><img src="e.png" width=24px></a></h1>
+</body>
+</html>
